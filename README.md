@@ -28,7 +28,7 @@ cd docker-moodle
 docker-compose up 
 ```
 
-####Configuration Instalation Moodle 
+#### Configuration Instalation Moodle 
 
 - Directory <br/>
   ```
@@ -38,11 +38,11 @@ docker-compose up
   
   Data directory    : /var/www/html/moodledata
   ```
-  <img src="screenshot/directory.png" alt="mysql">
+  ![alt text](https://github.com/santoadji21/docker-moodle/blob/master/screenshot/directory.PNG?raw=true)
 
 - Choose database driver mysql <br/>
 
-  <img src="screenshot/mysqldriver.png" alt="mysql">
+  [alt text](https://github.com/santoadji21/docker-moodle/blob/master/screenshot/mysqldriver.PNG?raw=true)
 
 - Database Setting <br/>
   ```
@@ -64,7 +64,7 @@ docker-compose up
       networks:
         - moodle
   ```
-  <img src="screenshot/databaseconfig.png" alt="mysql">
+  ![alt text](https://github.com/santoadji21/docker-moodle/blob/master/screenshot/databaseconfig.PNG?raw=true)
 
 ## Referensi
 
