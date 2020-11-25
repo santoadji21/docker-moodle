@@ -1,0 +1,29 @@
+version: '3'
+services:
+    db:
+        image: mariadb:latest
+        volumes:
+            - moodle_data:/var/lib/mysql
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: passw00rd
+            MYSQL_DATABASE: moodle
+            MYSQL_USER: moodle
+            MYSQL_PASSWORD: passw00rd
+        networks:
+            - moodle
+    moodle:
+        image: adji21/dockermoodle:latest
+        depends_on: 
+            - db
+        ports:
+            - "80:80"
+        restart: always
+        networks:
+            - moodle
+
+volumes:
+    moodle_data:        
+
+networks:
+    moodle:
