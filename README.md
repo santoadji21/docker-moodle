@@ -42,7 +42,7 @@ docker-compose up
 
 - Choose database driver mysql <br/>
 
-  [alt text](https://github.com/santoadji21/docker-moodle/blob/master/screenshot/mysqldriver.PNG?raw=true)
+  ![alt text](https://github.com/santoadji21/docker-moodle/blob/master/screenshot/mysqldriver.PNG?raw=true)
 
 - Database Setting <br/>
   ```
