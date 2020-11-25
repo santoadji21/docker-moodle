@@ -12,6 +12,7 @@ services:
       MYSQL_PASSWORD: r00t
     networks:
       - moodle
+
   moodle:
     image: 'adji21/dockermoodle:latest'
     depends_on:
@@ -21,7 +22,9 @@ services:
     restart: always
     networks:
       - moodle
+
 volumes:
   db_data: {}
+  
 networks:
   moodle: 
