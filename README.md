@@ -68,7 +68,7 @@ docker-compose up
 
 ## Referensi
 
-- [Install Docker on Ubuntu 18.04 ](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04)
+- [Install Docker on Ubuntu 18.04 ](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 - [Install Docker Compose on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-18-04)
 - [Build and Push Docker Image ](http://blog.shippable.com/build-a-docker-image-and-push-it-to-docker-hub)
 - [Docker Compose Manual](https://docs.docker.com/compose/)
