@@ -8,7 +8,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: r00t
       MYSQL_DATABASE: moodle
-      MYSQL_USER: root
+      MYSQL_USER: moodle
       MYSQL_PASSWORD: r00t
     networks:
       - moodle
@@ -25,6 +25,6 @@ services:
 
 volumes:
   db_data: {}
-  
+
 networks:
   moodle: 
